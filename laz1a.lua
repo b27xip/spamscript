@@ -71,11 +71,21 @@ credits.Name = "credits"
 credits.Parent = main
 credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 credits.Position = UDim2.new(0, 0, 0.90625, 0)
-credits.Size = UDim2.new(0, 303, 0, 18)
+credits.Size = UDim2.new(0, 186, 0, 18)
 credits.Font = Enum.Font.SourceSans
 credits.Text = "made by b27xip"
 credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 credits.TextSize = 14.000
+
+exploit.Name = "exploit"
+exploit.Parent = main
+exploit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exploit.Position = UDim2.new(0.613861382, 0, 0.90625, 0)
+exploit.Size = UDim2.new(0, 117, 0, 18)
+exploit.Font = Enum.Font.SourceSans
+exploit.Text = "Exploit: unkown"
+exploit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exploit.TextSize = 14.000
 
 exit.Name = "exit"
 exit.Parent = main
