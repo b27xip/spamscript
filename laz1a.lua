@@ -90,6 +90,8 @@ exploit.TextSize = 14.000
 
 if KRNL_LOADED then
 	exploit.Text = "Exploit: KRNL"
+elseif syn_decompile then
+	exploit.Text = "Exploit: Synapse X"
 else
 	exploit.Text = "Exploit: unkown"
 end
