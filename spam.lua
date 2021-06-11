@@ -1,16 +1,3 @@
---- Is a spam script :D
---- use alt acc!
-
-local spamsettings = ({
-	text = "im like spaming",
-	waitingtime = 1,
-	settingstogui = true,
-});
-
-
-------------------
-
-
 local spamgui = Instance.new("ScreenGui", game:WaitForChild("CoreGui"))
 local main = Instance.new("Frame")
 local title = Instance.new("TextLabel")
