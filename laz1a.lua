@@ -6,6 +6,7 @@ local waittim = Instance.new("TextBox")
 local spanb = Instance.new("TextButton")
 local credits = Instance.new("TextLabel")
 local exit = Instance.new("TextButton")
+local exploit = Instance.new("TextLabel")
 local toggle1 = false
 
 main.Name = "main"
@@ -86,6 +87,12 @@ exploit.Font = Enum.Font.SourceSans
 exploit.Text = "Exploit: unkown"
 exploit.TextColor3 = Color3.fromRGB(0, 0, 0)
 exploit.TextSize = 14.000
+
+if KRNL_LOADED then
+	exploit.Text = "Exploit: KRNL"
+else
+	exploit.Text = "Exploit: unkown"
+end
 
 exit.Name = "exit"
 exit.Parent = main
