@@ -1,3 +1,12 @@
+---- use alt!
+---- or risk ban
+
+local spamsettings = ({
+	text = "im like spaming",
+	waitingtime = 1,
+	settingstogui = true,
+});
+
 local spamgui = Instance.new("ScreenGui", game:WaitForChild("CoreGui"))
 local main = Instance.new("Frame")
 local title = Instance.new("TextLabel")
