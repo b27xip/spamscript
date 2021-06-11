@@ -90,11 +90,6 @@ exit.MouseButton1Click:Connect(function()
 	spamgui:Destroy();
 end)
 
-if spamsettings.settingstogui == true then
-	textpp.Text = spamsettings.text
-	waittim.Text = spamsettings.waitingtime
-end
-
 while wait(waittim.Text) do
 	if toggle1 == true then
 		local args = {
